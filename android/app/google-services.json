@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "502905875160",
+    "project_id": "vucudunu-tani",
+    "storage_bucket": "vucudunu-tani.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502905875160:android:383ba0129460a93b6a45ad",
+        "android_client_info": {
+          "package_name": "com.alperyuceer.vucudunutani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502905875160-knue27q36h0l1vu03nfa3fl1hmvj2831.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU2bmyvYM4vfZesEMXDFS4gI75-eLj24w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502905875160-knue27q36h0l1vu03nfa3fl1hmvj2831.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
