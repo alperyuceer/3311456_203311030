@@ -6,7 +6,17 @@ import 'package:firebase_core/firebase_core.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: FirebaseOptions(
+        apiKey: "AIzaSyD0TYPGKV71u0yeIlYE8nPXd5JHkXJ0_9w",
+        authDomain: "vucudunu-tani.firebaseapp.com",
+        databaseURL: "https://vucudunu-tani-default-rtdb.firebaseio.com",
+        projectId: "vucudunu-tani",
+        storageBucket: "vucudunu-tani.appspot.com",
+        messagingSenderId: "502905875160",
+        appId: "1:502905875160:web:b24c26914a618bd36a45ad",
+        measurementId: "G-2ZVT0HGVK5"),
+  );
   await Hive.initFlutter();
   await Hive.openBox("vkiveriler");
 
